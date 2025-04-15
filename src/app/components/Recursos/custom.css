@@ -1,0 +1,25 @@
+.custom-heading {
+    position: relative;
+  }
+  
+  .custom-heading::after {
+    content: "";
+    display: block;
+    width: 50%; /* Ajuste o tamanho do retângulo aqui */
+    height: 4px; /* Ajuste a altura do retângulo aqui */
+    background-color: purple;
+    position: absolute;
+    bottom: -2px;
+    left: 25%; /* Ajuste a posição inicial do retângulo aqui */
+    transform: translateX(-50%);
+  }
+
+  /* Seu arquivo CSS personalizado */
+.custom-accordion-title {
+  color: blue; /* Cor do texto */
+  cursor: pointer;
+}
+
+.custom-accordion-title:hover {
+  text-decoration: underline; /* Sublinhado no hover */
+}

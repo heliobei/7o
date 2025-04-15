@@ -1,0 +1,11 @@
+/* styles.css */
+.bg-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 40px); /* Largura da tela - 40px no lado direito */
+    height: 100%;
+    background: linear-gradient(to right, #0070f3, #33cc33); /* Seu degradê azul e verde */
+    z-index: -1; /* Coloque-o abaixo do conteúdo */
+  }
+
